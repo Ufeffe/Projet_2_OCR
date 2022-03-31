@@ -168,11 +168,11 @@ header {
 .box_title {
     display: flex;
     justify-content: space-between;
-    width: 340px;
-    margin: 50px 0px 15px 50px;
+    width: 80%;
+    margin: 30px 500px 30px 50px;
 }
 
-#box_info_hebergement {
+#box_more_hebergement {
     margin: 50px;
     margin-top: 15px;
 }
@@ -257,10 +257,9 @@ header {
 
 .carte_hebergement_add {
     display: flex;
-    width: 340px;
+    width: 80%;
     height: 140px;
-    margin-bottom: 30px;
-    margin-left: 50px;
+    margin: auto;
     background-color: white;
     border: solid white 3px;
     border-radius: 15px;
@@ -368,16 +367,20 @@ header {
 
 
 /*     ---------------  Fin activité Marseille   --------------------   */
-
-footer {
-    display: flex;
-    justify-content: space-evenly;
+footer{
     width: 100%;
     background-color: #f2f2f2;
+
+}
+.footer_wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    width: 75%;
+    margin: auto;
 }
 
-.footer_wrapper {
-    width: 300px;
+.footer_box {
+    width: 33%;
     display: flex;
     flex-direction: column;
     padding-top: 30px;
