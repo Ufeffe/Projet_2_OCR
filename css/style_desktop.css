@@ -33,7 +33,7 @@ li {
 }
 
 main {
-    width: 75%;
+    width: 70%;
     margin: auto;
 }
 
@@ -93,14 +93,19 @@ header {
     padding-left: 15px;
 }
 
-#button_tools {
+.button_tools {
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     padding: 15px;
+    min-width: 50px;
     color: white;
     background-color: #0065FC;
     text-decoration: none;
     font-size: large;
+}
+
+#button_tools_phone {
+    display: none;
 }
 
 #filtres_tools {
@@ -162,6 +167,7 @@ header {
 #display_hebergements {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-bottom: 50px;
 }
 
@@ -183,7 +189,7 @@ header {
     justify-content: space-between;
     width: 67%;
     min-width: 400px;
-    margin-right: 1%;
+    margin-top: 15px;
     background-color: #f2f2f2;
     border-radius: 15px;
 }
@@ -203,7 +209,6 @@ header {
     min-width: 240px;
     height: 200px;
     margin-bottom: 30px;
-    margin-right: 10px;
     background-color: white;
     border: solid white 3px;
     border-radius: 15px;
@@ -246,7 +251,8 @@ header {
     display: flex;
     flex-direction: column;
     width: 30%;
-    min-width: 400px;
+    min-width: 350px;
+    margin-top: 15px;
     background-color: #f2f2f2;
     border-radius: 15px;
 }
@@ -255,11 +261,16 @@ header {
     padding-left: 50px;
 }
 
+#card_wrapper_add {
+    width: 80%;
+    margin: 0px auto;
+}
+
 .carte_hebergement_add {
     display: flex;
-    width: 80%;
+    min-width: 265px;
     height: 140px;
-    margin: auto;
+    margin-bottom: 30px;
     background-color: white;
     border: solid white 3px;
     border-radius: 15px;
@@ -269,6 +280,7 @@ header {
 .carte_img_add {
     width: 130px;
     height: 130px;
+    object-fit: cover;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     padding-top: 5px;
@@ -367,15 +379,17 @@ header {
 
 
 /*     ---------------  Fin activité Marseille   --------------------   */
-footer{
+
+footer {
     width: 100%;
     background-color: #f2f2f2;
-
 }
+
 .footer_wrapper {
     display: flex;
     justify-content: space-evenly;
-    width: 75%;
+    flex-wrap: wrap;
+    width: 70%;
     margin: auto;
 }
 
