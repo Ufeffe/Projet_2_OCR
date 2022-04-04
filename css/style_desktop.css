@@ -33,7 +33,7 @@ li {
 }
 
 main {
-    width: 70%;
+    max-width: 1280px;
     margin: auto;
 }
 
@@ -47,8 +47,13 @@ header {
     height: 130px;
 }
 
+#logo_holder_booki {
+    width: 80px;
+    overflow: hidden;
+}
+
 #logo_booki {
-    width: 100px;
+    width: 125px;
 }
 
 #menu {
@@ -188,7 +193,7 @@ header {
     flex-direction: column;
     justify-content: space-between;
     width: 67%;
-    min-width: 400px;
+    min-width: 375px;
     margin-top: 15px;
     background-color: #f2f2f2;
     border-radius: 15px;
@@ -213,6 +218,11 @@ header {
     border: solid white 3px;
     border-radius: 15px;
     box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.3);
+}
+
+.carte_hebergement:hover {
+    transform: scale(1.3);
+    transition: 0.3s ease-in-out;
 }
 
 .card_title {
@@ -339,7 +349,7 @@ header {
 
 .img_activity_small {
     width: 100%;
-    height: 100%;
+    max-height: 150px;
     object-fit: cover;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -389,7 +399,7 @@ footer {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    width: 70%;
+    max-width: 1280px;
     margin: auto;
 }
 
@@ -407,3 +417,117 @@ footer {
 
 
 /*     ---------------        Fin Footer        --------------------   */
+
+
+/*     ---------------        Début Media Phone         --------------------   */
+
+@media all and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .menu_select {
+        padding-bottom: 5px;
+        border-bottom: solid 2px #f2f2f2;
+    }
+    .menu_select:hover {
+        border-bottom: solid 2px blue;
+        border-top: none;
+    }
+    /*     -------        Fin Header        ------   */
+    #tools {
+        width: 350px;
+        margin: auto;
+        align-items: center;
+    }
+    #search_tools {
+        margin-top: 30px;
+    }
+    #button_tools_phone {
+        display: block;
+    }
+    #button_tools_desktop {
+        display: none;
+    }
+    #filtres_tools {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #filtres_tools_wrapper_select {
+        justify-content: space-between;
+    }
+    .filtres_tools_select {
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+    /*     -------        Fin Tools        ------   */
+    .box_title {
+        width: 85%;
+        margin-left: 25px;
+    }
+    #display_hebergements {
+        flex-direction: column-reverse;
+    }
+    #hebergement_marseille {
+        background-color: white;
+    }
+    #card_wrapper_hebergement {
+        justify-content: center;
+    }
+    .carte_hebergement {
+        width: 325px;
+        height: 200px;
+    }
+    .carte_hebergement:hover {
+        transform: scale(1.1);
+        transition: 0.3s ease-in-out;
+    }
+    .carte_img {
+        width: 315px;
+    }
+    .description_carte_rating {
+        width: 315px;
+    }
+    /*     -------        Fin Hebergement Marseille        ------   */
+    #add_populaires {
+        width: 375px;
+        border-radius: 0%;
+    }
+    #card_wrapper_add {
+        width: 325px;
+        margin: auto;
+    }
+    .carte_hebergement_add {
+        margin-bottom: 15px;
+    }
+    #box_more_hebergement {
+        width: 350px;
+    }
+    /*     -------        Fin Add Populaires        ------   */
+    #wrapper_activity {
+        flex-direction: column;
+        align-items: center;
+    }
+    div[id^="slide"] {
+        width: 330px;
+    }
+    .display_activity {
+        width: 330px;
+    }
+    .img_activity_big {
+        height: 140px;
+        object-fit: cover;
+    }
+    /*     -------        Fin Activité Marseille        ------   */
+    .footer_wrapper {
+        flex-direction: column;
+        margin-left: 15px;
+    }
+    .footer_box {
+        width: 100%;
+    }
+    /*     -------        Fin Footer        ------   */
+}
+
+
+/*     ---------------        Fin Media        --------------------   */
