@@ -107,6 +107,7 @@ header {
     background-color: #0065FC;
     text-decoration: none;
     font-size: large;
+    cursor: pointer;
 }
 
 #button_tools_phone {
@@ -180,7 +181,7 @@ header {
     display: flex;
     justify-content: space-between;
     width: 80%;
-    margin: 30px 500px 30px 50px;
+    margin: 30px 50px;
 }
 
 #box_more_hebergement {
@@ -349,10 +350,25 @@ header {
 
 .img_activity_small {
     width: 100%;
-    max-height: 150px;
     object-fit: cover;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+}
+
+.img_activity_one {
+    height: 180px;
+}
+
+.img_activity_two {
+    height: 110px;
+}
+
+.img_activity_three {
+    height: 140px;
+}
+
+.img_activity_four {
+    height: 150px;
 }
 
 #slide_one {
@@ -369,22 +385,6 @@ header {
 
 #slide_four {
     height: 210px;
-}
-
-#slide_one_img {
-    height: 180px;
-}
-
-#slide_two_img {
-    height: 110px;
-}
-
-#slide_three_img {
-    height: 140px;
-}
-
-#slide_four_img {
-    height: 150px;
 }
 
 
@@ -417,117 +417,3 @@ footer {
 
 
 /*     ---------------        Fin Footer        --------------------   */
-
-
-/*     ---------------        Début Media Phone         --------------------   */
-
-@media all and (max-width: 768px) {
-    header {
-        flex-direction: column;
-        justify-content: space-around;
-    }
-    .menu_select {
-        padding-bottom: 5px;
-        border-bottom: solid 2px #f2f2f2;
-    }
-    .menu_select:hover {
-        border-bottom: solid 2px blue;
-        border-top: none;
-    }
-    /*     -------        Fin Header        ------   */
-    #tools {
-        width: 350px;
-        margin: auto;
-        align-items: center;
-    }
-    #search_tools {
-        margin-top: 30px;
-    }
-    #button_tools_phone {
-        display: block;
-    }
-    #button_tools_desktop {
-        display: none;
-    }
-    #filtres_tools {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    #filtres_tools_wrapper_select {
-        justify-content: space-between;
-    }
-    .filtres_tools_select {
-        margin-left: 0px;
-        margin-top: 15px;
-    }
-    /*     -------        Fin Tools        ------   */
-    .box_title {
-        width: 85%;
-        margin-left: 25px;
-    }
-    #display_hebergements {
-        flex-direction: column-reverse;
-    }
-    #hebergement_marseille {
-        background-color: white;
-    }
-    #card_wrapper_hebergement {
-        justify-content: center;
-    }
-    .carte_hebergement {
-        width: 325px;
-        height: 200px;
-    }
-    .carte_hebergement:hover {
-        transform: scale(1.1);
-        transition: 0.3s ease-in-out;
-    }
-    .carte_img {
-        width: 315px;
-    }
-    .description_carte_rating {
-        width: 315px;
-    }
-    /*     -------        Fin Hebergement Marseille        ------   */
-    #add_populaires {
-        width: 375px;
-        border-radius: 0%;
-    }
-    #card_wrapper_add {
-        width: 325px;
-        margin: auto;
-    }
-    .carte_hebergement_add {
-        margin-bottom: 15px;
-    }
-    #box_more_hebergement {
-        width: 350px;
-    }
-    /*     -------        Fin Add Populaires        ------   */
-    #wrapper_activity {
-        flex-direction: column;
-        align-items: center;
-    }
-    div[id^="slide"] {
-        width: 330px;
-    }
-    .display_activity {
-        width: 330px;
-    }
-    .img_activity_big {
-        height: 140px;
-        object-fit: cover;
-    }
-    /*     -------        Fin Activité Marseille        ------   */
-    .footer_wrapper {
-        flex-direction: column;
-        margin-left: 15px;
-    }
-    .footer_box {
-        width: 100%;
-    }
-    /*     -------        Fin Footer        ------   */
-}
-
-
-/*     ---------------        Fin Media        --------------------   */
