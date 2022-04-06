@@ -293,6 +293,8 @@ header {
 
 .fa-chart-line {
     padding-left: 50px;
+    position: relative;
+    top: 5px;
 }
 
 #card_wrapper_add {
