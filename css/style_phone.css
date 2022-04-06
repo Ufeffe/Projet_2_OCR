@@ -4,6 +4,8 @@
     header {
         flex-direction: column;
         justify-content: space-around;
+        width: 375px;
+        margin: auto;
     }
     .menu_select {
         padding-bottom: 5px;
@@ -49,6 +51,7 @@
         align-items: center;
     }
     #hebergement_marseille {
+        width: 375px;
         background-color: white;
     }
     #card_wrapper_hebergement {
@@ -85,6 +88,10 @@
         margin: auto;
     }
     /*     -------        Fin Add Populaires        ------   */
+    #activity_marseille {
+        width: 375px;
+        margin: auto;
+    }
     #wrapper_activity {
         display: block;
     }
@@ -133,12 +140,17 @@
         object-fit: cover;
     }
     /*     -------        Fin Activité Marseille        ------   */
+    footer {
+        width: 100%;
+        min-width: 375px;
+    }
     .footer_wrapper {
         flex-direction: column;
-        margin-left: 15px;
+        width: 375px;
     }
     .footer_box {
-        width: 100%;
+        width: 325px;
+        margin-left: 25px;
     }
     /*     -------        Fin Footer        ------   */
 }

@@ -1,3 +1,5 @@
+    /*     ---------------        Début Media Tablet         --------------------   */
+    
     @media all and (min-width:769px)and (max-width:992px) {
         main {
             width: 98%;
@@ -5,29 +7,31 @@
         #hebergement_marseille {
             width: auto;
         }
-        .display_activity {
-            width: auto;
-            min-width: 350px;
-        }
         .box_title {
             width: auto;
         }
+        /*     -------        Fin Hebergement Marseille        ------   */
         #add_populaires {
             width: 100%;
         }
         #card_wrapper_add {
             display: flex;
             justify-content: space-evenly;
+            width: 100%;
+        }
+        .tablet_display_hebergement_add {
+            width: 30%;
         }
         .carte_img_add {
             width: 100px;
         }
         .carte_hebergement_add {
-            width: 280px;
-            margin: 10px;
             margin-bottom: 30px;
         }
         /*     -------        Fin Add Populaires        ------   */
+        .display_activity {
+            width: 49%;
+        }
         #slide_one {
             height: 200px;
         }
@@ -57,3 +61,4 @@
             margin-left: 15px;
         }
     }
+    /*     ---------------        Fin Media Tablet        --------------------   */
