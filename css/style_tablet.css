@@ -1,64 +1,68 @@
-    /*     ---------------        Début Media Tablet         --------------------   */
-    
-    @media all and (min-width:769px)and (max-width:992px) {
-        main {
-            width: 98%;
-        }
-        #hebergement_marseille {
-            width: auto;
-        }
-        .box_title {
-            width: auto;
-        }
-        /*     -------        Fin Hebergement Marseille        ------   */
-        #add_populaires {
-            width: 100%;
-        }
-        #card_wrapper_add {
-            display: flex;
-            justify-content: space-evenly;
-            width: 100%;
-        }
-        .tablet_display_hebergement_add {
-            width: 30%;
-        }
-        .carte_img_add {
-            width: 100px;
-        }
-        .carte_hebergement_add {
-            margin-bottom: 30px;
-        }
-        /*     -------        Fin Add Populaires        ------   */
-        .display_activity {
-            width: 49%;
-        }
-        #slide_one {
-            height: 200px;
-        }
-        #slide_two {
-            height: 200px;
-        }
-        #slide_three {
-            height: 200px;
-        }
-        #slide_four {
-            height: 200px;
-        }
-        .img_activity_one {
-            height: 135px;
-        }
-        .img_activity_two {
-            height: 135px;
-        }
-        .img_activity_three {
-            height: 135px;
-        }
-        .img_activity_four {
-            height: 135px;
-        }
-        /*     -------        Fin Activité Marseille        ------   */
-        .footer_wrapper {
-            margin-left: 15px;
-        }
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+/*     ---------------        Début Media Tablet         --------------------   */
+
+@media all and (min-width:769px)and (max-width:992px) {
+    main {
+        width: 98%;
     }
-    /*     ---------------        Fin Media Tablet        --------------------   */
+    #hebergement_marseille {
+        width: auto;
+    }
+    .box_title {
+        width: auto;
+    }
+    /*     -------        Fin Hebergement Marseille        ------   */
+    #add_populaires {
+        width: 100%;
+    }
+    #card_wrapper_add {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .tablet_display_hebergement_add {
+        width: 30%;
+    }
+    .carte_img_add {
+        width: 100px;
+    }
+    .carte_hebergement_add {
+        margin-bottom: 30px;
+    }
+    /*     -------        Fin Add Populaires        ------   */
+    .display_activity {
+        width: 49%;
+    }
+    #slide_one {
+        height: 200px;
+    }
+    #slide_two {
+        height: 200px;
+    }
+    #slide_three {
+        height: 200px;
+    }
+    #slide_four {
+        height: 200px;
+    }
+    .img_activity_one {
+        height: 135px;
+    }
+    .img_activity_two {
+        height: 135px;
+    }
+    .img_activity_three {
+        height: 135px;
+    }
+    .img_activity_four {
+        height: 135px;
+    }
+    /*     -------        Fin Activité Marseille        ------   */
+    .footer_wrapper {
+        margin-left: 15px;
+    }
+}
+
+
+/*     ---------------        Fin Media Tablet        --------------------   */

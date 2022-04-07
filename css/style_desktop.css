@@ -1,10 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 * {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 h1,
 h2,
 h3,
@@ -92,7 +92,8 @@ header {
 }
 
 #search_field {
-    height: 50px;
+    height: 51px;
+    width: 255px;
     border: solid #f2f2f2 2px;
     font-size: large;
     padding-left: 15px;
@@ -101,6 +102,8 @@ header {
 .button_tools {
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
+    position: relative;
+    left: -15px;
     padding: 15px;
     min-width: 50px;
     color: white;

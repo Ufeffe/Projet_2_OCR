@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 /*     ---------------        Début Media Phone         --------------------   */
 
 @media all and (max-width: 768px) {
@@ -14,6 +16,9 @@
     .menu_select:hover {
         border-bottom: solid 2px blue;
         border-top: none;
+    }
+    .button_tools {
+        border-radius: 15px;
     }
     /*     -------        Fin Header        ------   */
     #tools {
